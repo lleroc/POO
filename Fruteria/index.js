@@ -1,7 +1,7 @@
 //ejecuto todo el programa
 var teclado = require("prompt-sync")();
 //Declaración de la fruteria
-var Fruteria = require("./Fruteria");
+var Fruteria = require(".");
 var frutas = new Fruteria(); //Instacia
 //Declaración de las Frutas
 var Claudia = require("./Frutas/Claudia");
