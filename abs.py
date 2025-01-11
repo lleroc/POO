@@ -1,16 +1,18 @@
 from abc import ABC, abstractmethod
 
-class Personal:
-    def leer():
-        edad
-        nombre
-    
+class Animal(ABC):
+    @abstractmethod
+    def hacerSonido(self):
+        pass
 
-def insertar():
+class Perro(Animal):
+        def hacerSonido():
+             print("guau")
 
+class pato(Animal):
+     def hacerSonido(self):
+          print("cuac")
 
-
-def eliminar():
 
 
 
